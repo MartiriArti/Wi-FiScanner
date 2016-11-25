@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wi-Fi Scanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_net">Имя сети</string>
+    <string name="security_type">Тип защиты</string>
+    <string name="power_edge">Уровень сигнала</string>
+</resources>
