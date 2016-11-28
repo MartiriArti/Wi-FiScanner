@@ -5,35 +5,12 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/list_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:hint="@string/name_net"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:hint="@string/security_type"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:hint="@string/power_edge"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/tvSSID"
@@ -43,7 +20,25 @@
             android:hint="@string/name_net"/>
 
         <TextView
+            android:id="@+id/tvBSSID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="@string/mac_adress"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvHESSID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="@string/hessid"
+            android:visibility="gone"/>
+
+        <TextView
             android:id="@+id/tvSecurity"
+            android:maxLength="37"
+            android:maxLines="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -56,5 +51,15 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:hint="@string/power_edge"/>
 
+        <TextView
+            android:id="@+id/tvFrequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:hint="@string/frequency"
+            android:visibility="gone"/>
+
+
     </LinearLayout>
+
 </RelativeLayout>

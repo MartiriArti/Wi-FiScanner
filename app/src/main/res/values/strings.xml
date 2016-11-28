@@ -4,4 +4,13 @@
     <string name="name_net">Имя сети</string>
     <string name="security_type">Тип защиты</string>
     <string name="power_edge">Уровень сигнала</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="frequency">Frequency</string>
+    <string name="hessid">HESSID</string>
+    <string name="mac_adress">MAC_Adress</string>
+    <string name="Settings">Settings</string>
+    <string name="wifi_activity">More about net</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_wifi_more">WifiMoreActivity</string>
 </resources>
