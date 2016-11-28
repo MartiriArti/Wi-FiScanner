@@ -23,81 +23,94 @@
 
     <TextView
         android:id="@+id/tvBSSID"
+        android:textSize="18sp"
+        android:textColor="@color/indigo_700"
         android:hint="BSSID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvHESSID"
+        android:textSize="18sp"
         android:hint="HESSID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvSecurity"
+        android:textSize="18sp"
         android:hint="Security"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvLevel"
+        android:textSize="18sp"
         android:hint="Power"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvFrequency"
+        android:textSize="18sp"
         android:hint="Frequency"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvTimeStamp"
+        android:textSize="18sp"
         android:hint="TimeStamp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvDistance"
+        android:textSize="18sp"
         android:hint="Distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvDistanceSd"
+        android:textSize="18sp"
         android:hint="DistanceSd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvPassPoint"
+        android:textSize="18sp"
         android:hint="PassPoint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvChannelBandWidth"
+        android:textSize="18sp"
         android:hint="ChannelBandWidth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvCenterFreq0"
+        android:textSize="18sp"
         android:hint="CenterFreq0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tvCenterFreq1"
+        android:textSize="18sp"
         android:hint="CenterFreq1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tv80211Responder"
+        android:textSize="18sp"
         android:hint="802.11Responder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
+    
 </LinearLayout>

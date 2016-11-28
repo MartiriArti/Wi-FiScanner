@@ -8,5 +8,10 @@
     <color name="yellow">#FFEA00</color>
     <color name="red">#D32F2F</color>
 
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+
 
 </resources>
